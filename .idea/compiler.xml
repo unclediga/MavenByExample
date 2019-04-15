@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="simple" />
         <module name="simple-weather" />
+        <module name="simple-webapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
