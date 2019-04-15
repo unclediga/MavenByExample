@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simple" />
+        <module name="simple-weather" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="parent (1) (org.sonatype.mavenbook.custom)" target="1.5" />
+      <module name="parent (2) (org.sonatype.mavenbook.simple)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
