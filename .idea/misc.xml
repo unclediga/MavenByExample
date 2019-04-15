@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/ch-custom/simple-weather/pom.xml" />
         <option value="$PROJECT_DIR$/ch-simple/simple/pom.xml" />
         <option value="$PROJECT_DIR$/ch-simple-web/simple-webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/ch-multi/simple-parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

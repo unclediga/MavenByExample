@@ -1,1 +1,1 @@
-mvn exec:java -Dexec.mainClass=org.sonatype.mavenbook.weather.Main -Dexec.args="70112"
+mvn exec:java -Dexec.mainClass=org.sonatype.mavenbook.weather.WeatherService -Dexec.args="70112"
