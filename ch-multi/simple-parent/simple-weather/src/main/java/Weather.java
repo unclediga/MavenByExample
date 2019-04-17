@@ -1,3 +1,5 @@
+package org.sonatype.mavenbook.weather;
+
 public class Weather {
 	private String city;
 	private String region;

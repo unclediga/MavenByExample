@@ -13,6 +13,7 @@ public class WeatherServlet extends HttpServlet {
     WeatherService weatherService = new WeatherService();
     PrintWriter out = response.getWriter();
     try {
+      out.println("<h2>zip = "+zip+"</h2>\n");
       out.println( weatherService.retrieveForecast( zip ) );
     } catch( Exception e ) {
       out.println( "Error Retrieving Forecast: " + e.getMessage() );

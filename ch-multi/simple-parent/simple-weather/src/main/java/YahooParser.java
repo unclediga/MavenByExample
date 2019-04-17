@@ -1,3 +1,5 @@
+package org.sonatype.mavenbook.weather;
+
 import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.DocumentFactory;

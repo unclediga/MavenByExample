@@ -1,3 +1,5 @@
+package org.sonatype.mavenbook.weather;
+ 
 import org.apache.log4j.PropertyConfigurator;
 
 import java.io.InputStream;
@@ -10,7 +12,7 @@ public class WeatherService {
 	}
 
 
-	public String retriveForecast(String zip) throws Exception {
+	public String retrieveForecast(String zip) throws Exception {
 
 		// Configure Log4J
 		PropertyConfigurator.configure(WeatherService.class.getClassLoader().getResource("log4j.properties"));

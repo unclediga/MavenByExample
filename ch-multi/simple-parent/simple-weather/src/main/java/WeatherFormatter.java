@@ -1,3 +1,5 @@
+package org.sonatype.mavenbook.weather;
+
 import org.apache.log4j.Logger;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;

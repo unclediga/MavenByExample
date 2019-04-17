@@ -1,3 +1,5 @@
+package org.sonatype.mavenbook.weather;
+
 import org.apache.log4j.Logger;
 
 import javax.crypto.Mac;
@@ -17,7 +19,7 @@ public class YahooRetriever {
 
 
 	public InputStream retrieve(String zipcode) throws Exception {
-		log.info( "Retrieving Weather Data" );
+		log.info( "Retrieving Weather Data for zipcode = "+zipcode );
 
 
         ////////////////////////////////////////////////////
